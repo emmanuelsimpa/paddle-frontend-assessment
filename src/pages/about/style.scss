@@ -1,0 +1,134 @@
+.section-one {
+    height: 87vh;
+    position: relative;
+
+    .left-rectangle {
+        background: rgba(246, 195, 246, 0.213);
+        height: 100%;
+        width: 60%;
+        
+    }
+
+    .rectangle-content {
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 20%;
+    }
+
+    .rectangle-content-two {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    .rectangle-content-three {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        position: absolute;
+        top: 0;
+        left: 65%;
+        padding: 10px 15px;
+        margin-right: 10px;
+    }
+}
+
+.section-two {
+    height: 100%;
+    position: relative;
+
+    .sec-two-title {
+        padding-top: 8%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        p {
+            width: 50%;
+        }
+    }
+
+    .sec-two-content {
+        padding-top: 8%;
+        margin-left: 20%;
+    }
+
+    .sec-two-rect {
+        background: rgba(246, 195, 246, 0.213);
+        width: 100%;
+    }
+
+    .sec-two-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-two-grid {
+        position: relative;
+
+        .sec-two-grid-title {
+            position: relative;
+
+            .number-one { 
+                height: 100%;
+                position: absolute;
+                bottom: 0%;
+                top: 10%;
+                left: 5%;
+            }
+        }
+
+        
+    }
+
+    .dot-wraper {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .secton-three {
+        padding-top: 6%;
+        position: relative;
+    }
+
+    .question {
+        background: rgba(246, 195, 246, 0.213);
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+
+        .sec-three-content {
+            padding-top: 10px;
+            margin-left: 20%;
+        }
+    }
+    .feet {
+        padding-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .feet-wrap {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .feet-wrap-icon {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
+
